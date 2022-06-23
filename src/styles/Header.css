@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.header__link {
+    color: #ff6060;
+    font-size: 24px;
+    margin-left: 57px;
+    margin-right: 57px;
+}
+.header__link:hover,::after,:active {
+    text-decoration: underline;
+}
+.header__logo {
+      flex-grow: 2;
+      /* margin-top: 30px; */
+      margin-bottom: 40px;
+}
+img {
+    width: 120px;
+}
+li {
+    list-style-type: none;
+}
