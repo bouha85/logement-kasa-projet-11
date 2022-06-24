@@ -1,17 +1,21 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin-right: 100px;
+    margin-top: 50px;
     margin-left: 100px;
+    margin-right: 100px;
 }
 .header__link {
     color: #ff6060;
     font-size: 24px;
     margin-left: 57px;
-    margin-right: 57px;
+    
 }
 .header__link:hover,::after,:active {
     text-decoration: underline;
+}
+a{
+    text-decoration: none;
 }
 .header__logo {
       flex-grow: 2;

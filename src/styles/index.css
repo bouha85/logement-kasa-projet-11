@@ -9,3 +9,11 @@ main {
     margin-right: 100px;
   
  }
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+ }
+ ul {
+    padding: 0;
+ }

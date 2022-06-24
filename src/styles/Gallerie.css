@@ -1,0 +1,12 @@
+.gallerie {
+    background: #f7f7f7;
+    border-radius: 25px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    grid-auto-rows: 300px;
+    grid-auto-flow: dense;
+    list-style-type: none;
+    margin: 0 0 20px 0;
+  }
