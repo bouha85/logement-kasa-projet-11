@@ -17,3 +17,10 @@ main {
  ul {
     padding: 0;
  }
+
+h2,
+h3,
+p,
+div {
+   color: #ff6060
+}

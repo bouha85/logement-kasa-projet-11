@@ -1,0 +1,22 @@
+.error {
+    text-align: center;
+    height: 65vh;
+}
+.error__title {
+    font-size: 288px;
+    font-weight: 700;
+}
+
+.error__subtitle  {
+    font-weight: 500;
+    font-size: 36px;
+    margin: auto;
+}
+
+.error__backLink {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-top: 100px;
+}
