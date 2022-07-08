@@ -1,5 +1,5 @@
 import background from '../assets/pictures/bannerv2.png'
-import Dropdown from '../components/Dropdown'
+import Collase from '../components/Collase'
 const speech = [
   {
     title: 'Fiabilité',
@@ -30,7 +30,7 @@ function About() {
         <img className="banner2__img" src={background} alt="banner" />
       </div>
       {speech.map((subject, index) => (
-        <Dropdown
+        <Collase
           key={`${subject.title}-${index}`}
           datas={subject.description}
           title={subject.title}

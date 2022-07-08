@@ -1,0 +1,22 @@
+.carrousel__img {
+    width: 100%;
+    height: 415px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.carrousel__button {
+    position: absolute;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+}
+
+.carrousel__button--left {
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+.carrousel__button--right {
+    margin-left: -80px;
+    margin-top: 150px;
+}
