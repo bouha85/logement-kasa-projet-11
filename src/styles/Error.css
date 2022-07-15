@@ -20,3 +20,19 @@
     text-decoration: underline;
     margin-top: 100px;
 }
+
+@media screen and (max-width: 880px) {
+    .error__title{
+        font-size: 96px;
+        line-height: 142.6%;
+        margin-top: 5rem;
+    }
+
+    .error__subtitle {
+        font-size: 18px;
+    }
+
+    .error__backLink {
+        font-size: 14px;
+    }
+}

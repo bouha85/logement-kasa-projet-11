@@ -19,15 +19,6 @@ const Header = () => {
       </Link>
     </nav>
   )
-  //   return (
-  //     <ul className="header">
-  //       <li className="header__logo">
-  //         <img src={logos} alt="Kasa Logo" className="img" />
-  //       </li>
-  //       <li className="header__link">Accuiel</li>
-  //       <li className="header__link">A propos</li>
-  //     </ul>
-  //   )
 }
 
 export default Header

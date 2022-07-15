@@ -19,12 +19,28 @@ a{
 }
 .header__logo {
       flex-grow: 2;
-      /* margin-top: 30px; */
       margin-bottom: 40px;
 }
-img {
-    width: 120px;
+.header__logo >img {
+    width: 200px;
 }
 li {
     list-style-type: none;
+}
+
+@media screen and (max-width: 880px) {
+    .header {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .header__link {
+        font-size: 12px;
+        margin-left: 20px;
+        text-transform: uppercase;
+      }
+      .header__logo >img {
+        width: 90px;
+        margin-top: -9px;
+      }
+    
 }

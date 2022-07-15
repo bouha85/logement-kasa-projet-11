@@ -28,3 +28,9 @@
     border-radius: 4px;
     overflow: hidden;
 }
+
+@media screen and (max-width: 880px){
+    .thumb {
+        padding: 0;
+    }
+}

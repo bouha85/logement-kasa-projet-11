@@ -20,3 +20,18 @@
     margin-left: -80px;
     margin-top: 150px;
 }
+
+@media screen and (max-width: 880px) {
+    .carrousel__img {
+        border-radius: 10px;
+    }
+
+    .carrousel__button {
+        font-size: 40px;
+        margin-top: 190px;
+    }
+
+    .carrousel__button--right {
+        margin-left: -50px;
+    }
+}

@@ -13,10 +13,11 @@
 .star--no {
     fill: #dddddd;
     margin-left: 10px;
+    
 }
 
 .star--yes, .star--no >svg {
-    width: 90%;
+    width: -8%;
 }
 
 .picture {
@@ -80,4 +81,45 @@
     text-align: end;
     align-self: center;
     line-height: 26px;
+  }
+
+  @media screen and (max-width: 880px) {
+    svg {
+      width: 15px;
+      height: 15px;
+    }
+
+    .star {
+      padding-bottom: 18px;
+    }
+
+    .grid {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+    .flex{
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .flex .Dropdown {
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .flexRowB {
+      flex-direction: row-reverse;
+    }
+
+    .Card {
+      flex-direction: column;
+    }
+
+    .Card__title {
+      flex-direction: column;
+    }
+
+    .Card__title > p{
+      font-size: 14px;
+    }
   }

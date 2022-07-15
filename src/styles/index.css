@@ -4,10 +4,22 @@ body {
     height: 100vh;
     font-size: 18px;
 }
+
+@media screen and (max-width: 880px) {
+   body {
+     font-size: 12px;
+   }
+ }
 main {
     margin-left: 100px;
     margin-right: 100px;
-  
+}
+
+@media screen and (max-width: 880px) {
+   main {
+     margin-left: 20px;
+     margin-right: 20px;
+   }
  }
 
  * {
@@ -24,6 +36,17 @@ p,
 div {
    color: #ff6060
 }
+
+h1 {
+   font-size: 36px;
+   font-weight: 500;
+ }
+
+ @media screen and (max-width: 880px) {
+   h1 {
+      font-size: 24px;
+   }
+ }
 
 button {
    background-color: transparent;
