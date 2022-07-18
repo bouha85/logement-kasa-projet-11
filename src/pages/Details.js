@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
 
 const Details = () => {
-  const [searchParams, setSearchParams] = useSearchParams()
+  const [searchParams] = useSearchParams()
   const id = searchParams.get('id')
   let data = []
 

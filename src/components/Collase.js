@@ -25,7 +25,7 @@ function Collase({ datas, title }) {
       </button>
       <ul className="Dropdown__list">
         {datas.map((item, index) => (
-          <div key={`${item}-${index}`}>{item}</div>
+          <li key={`${item}-${index}`}>{item}</li>
         ))}
       </ul>
     </div>

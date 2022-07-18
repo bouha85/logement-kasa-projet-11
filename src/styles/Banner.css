@@ -29,6 +29,12 @@
       text-align: left;
       border-radius: 10px;
    }
+   .banner2 {
+      height: 223px;
+      line-height: 223px;
+      border-radius: 10px;
+      width: 100vw;
+   }
 
    .banner >h1 {
       padding-left: 10px;

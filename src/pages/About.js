@@ -1,4 +1,5 @@
 import background from '../assets/pictures/bannerv2.png'
+import '../styles/Banner.css'
 import Collase from '../components/Collase'
 const speech = [
   {
