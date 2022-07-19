@@ -1,10 +1,12 @@
 import React from 'react'
 import '../styles/Detail.css'
 import Tag from '../components/Tag'
+import Error from '../components/Error'
 import Carrousel from '../components/Carrousel'
 import Collase from '../components/Collase'
 import Star from '../components/Star'
 import { useState, useEffect } from 'react'
+
 import { useSearchParams } from 'react-router-dom'
 
 const Details = () => {
@@ -28,17 +30,30 @@ const Details = () => {
       .catch(function (err) {
         setError(err)
         setIsLoaded(true)
+        // return <Redirect to="/" />
       })
   }, [])
 
   if (error) {
+    console.log('error')
     return <div>Erreur : {error.message}</div>
   } else if (!isLoaded) {
+    console.log('isloded')
     return <div>Chargement...</div>
   } else if (datas) {
-    datas.map((location) => {
-      if (location.id === id) {
-        data = location
+    console.log('datas', datas)
+
+    const temp = datas.filter((data) => data.id == id)
+    console.log('temp', temp)
+    if (temp.length == 0)
+      return (
+        <div>
+          <Error />
+        </div>
+      )
+    datas.map((pictures) => {
+      if (pictures.id === id) {
+        data = pictures
       }
     })
     let Rating = () => {

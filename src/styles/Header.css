@@ -5,15 +5,25 @@
     margin-left: 100px;
     margin-right: 100px;
 }
-.header__link {
+
+.header h6 {
     color: #ff6060;
     font-size: 24px;
     margin-left: 57px;
+    padding-top: 25px;
     
 }
-.header__link:hover,::after,:active {
+.header__link:active {
+    text-decoration: underline #ff6060;
+}
+
+.header__link::after{
     text-decoration: underline;
 }
+.header__navlink--active {
+    text-decoration: underline;
+}
+
 a{
     text-decoration: none;
 }
@@ -33,10 +43,11 @@ li {
       margin-left: 20px;
       margin-right: 20px;
     }
-    .header__link {
+    .header h6 {
         font-size: 12px;
         margin-left: 20px;
         text-transform: uppercase;
+        padding-top: 0;
       }
       .header__logo >img {
         width: 90px;
