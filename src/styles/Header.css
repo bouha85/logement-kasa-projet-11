@@ -14,7 +14,8 @@
     
 }
 .header__link:active {
-    text-decoration: underline #ff6060;
+    text-decoration: underline;
+    text-decoration-color: #ff6060;
 }
 
 .header__link::after{
